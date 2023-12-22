@@ -1,0 +1,74 @@
+:root {
+    /* 主色 */
+    --b3-theme-primary: #2a89d4;
+    --b3-theme-background: #fefdfd;
+    --b3-theme-background-light: #efa5c0;
+    --b3-theme-surface: #fffcf8;
+    --b3-theme-surface-lighter: rgba(122, 71, 71, 0.4);
+
+    /* 文字颜色 */
+    --b3-theme-primary: #2a89d4;
+    --b3-theme-on-background: #61414b;
+    --b3-theme-on-surface: #8b606d;
+    --b3-theme-on-surface-light: rgba(174, 101, 133, 0.87);
+
+    /* 顶部工具栏 */
+    --b3-toolbar-background: #f8c5c4;
+    --b3-toolbar-blur-background: #edc9c4;
+    --b3-toolbar-color: var(--b3-theme-on-surface);
+    --b3-toolbar-hover: var(--b3-theme-background-light);
+
+    /* 线条 */
+    --b3-border-color: rgba(157, 46, 46, 0.333);
+
+    /* 列表 */
+    --b3-list-hover: rgba(232, 214, 219, 0.471);
+
+    /* 菜单 */
+    --b3-menu-background: #ffffff;
+
+    /* 提示 */
+    --b3-tooltips-background: #834e68;
+    --b3-tooltips-color: #ffffff;
+
+    /* 卡片背景 */
+    --b3-card-error-color: #a2150b;
+    --b3-card-error-background: rgba(253, 236, 234, 0.8);
+    --b3-card-warning-color: #a05d00;
+    --b3-card-warning-background: rgba(255, 235, 209, 0.8);
+    --b3-card-info-color: #0a67af;
+    --b3-card-info-background: rgba(232, 244, 253, 0.8);
+    --b3-card-success-color: #17781c;
+    --b3-card-success-background: rgba(237, 247, 237, 0.8);
+
+    /* 阴影 */
+    --b3-dialog-shadow:
+        rgba(152, 94, 124, 0.28) 0px 1px 5px,
+        rgba(127, 84, 113, 0.42) 0px 2px 4px,
+        rgba(157, 139, 143, 0.5) 0px 4px 8px 1px,
+        rgba(168, 153, 158, 0.51) 0px 8px 16px,
+        rgba(139, 131, 134, 0.09) 0px 16px 32px;
+    --b3-point-shadow:
+        0 3px 1px -2px rgba(0, 0, 0, 0.2),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+
+    /* 图表颜色 */
+    --b3-graph-doc-point: #07b5c8;
+    --b3-graph-ref-line: #b14d44;
+
+    /* 所见即所得行内元素颜色 */
+    --b3-protyle-inline-strong-color: inherit;
+    --b3-protyle-inline-link-color: #4387f4;
+    --b3-protyle-inline-blockref-color: #7440d5;
+    --b3-protyle-inline-fileref-color: #21866b;
+
+    /* PDF */
+    --b3-pdf-background1: #f5c5c2;
+    --b3-pdf-background2: #f3cfb4;
+    --b3-pdf-background3: #f1e3b6;
+    --b3-pdf-background4: #c7eabe;
+    --b3-pdf-background5: #c0e8df;
+    --b3-pdf-background6: #b8d6ef;
+    --b3-pdf-background7: #d1cbf6;
+}

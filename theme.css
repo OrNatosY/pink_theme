@@ -1,3 +1,4 @@
-:root {
-    --b3-theme-primary: #d23f31;
-}
+@import url(root/modified.css);
+@import url(root/new.css);
+
+@import url(layout_theme/theme.css);
