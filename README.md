@@ -1,5 +1,3 @@
-[English](https://github.com/siyuan-note/theme-sample/blob/main/README.md)
-
 # 思源笔记主题示例
 
 ## 开始

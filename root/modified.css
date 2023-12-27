@@ -31,16 +31,6 @@
     --b3-tooltips-background: #834e68;
     --b3-tooltips-color: #ffffff;
 
-    /* 卡片背景 */
-    --b3-card-error-color: #a2150b;
-    --b3-card-error-background: rgba(253, 236, 234, 0.8);
-    --b3-card-warning-color: #a05d00;
-    --b3-card-warning-background: rgba(255, 235, 209, 0.8);
-    --b3-card-info-color: #0a67af;
-    --b3-card-info-background: rgba(232, 244, 253, 0.8);
-    --b3-card-success-color: #17781c;
-    --b3-card-success-background: rgba(237, 247, 237, 0.8);
-
     /* 阴影 */
     --b3-dialog-shadow:
         rgba(152, 94, 124, 0.28) 0px 1px 5px,
@@ -71,4 +61,13 @@
     --b3-pdf-background5: #c0e8df;
     --b3-pdf-background6: #b8d6ef;
     --b3-pdf-background7: #d1cbf6;
+}
+
+/* https://github.com/siyuan-note/siyuan/issues/6440 */
+.protyle-action--order:after {
+    mix-blend-mode: screen;
+}
+
+.b3-text-field::-webkit-calendar-picker-indicator {
+    filter: invert(1)
 }
